@@ -6,7 +6,7 @@ $line  = fgets($fh,4096);
 $arr = explode(" ", $line);
 $time_total_before=0;
 for($i=1;$i<sizeof($arr);++$i){
-$time_total_before+= (int)$arr[$i];
+  $time_total_before+= (int)$arr[$i];
 }
 $fh = fopen('/proc/'.$process_id.'/stat', "r");
 $line  = fgets($fh,4096);
@@ -21,7 +21,7 @@ $line  = fgets($fh,4096);
 $arr = explode(" ", $line);
 $time_total_after=0;
 for($i=1;$i<sizeof($arr);++$i){
-$time_total_after+= (int)$arr[$i];
+  $time_total_after+= (int)$arr[$i];
 }
 $fh = fopen('/proc/'.$process_id.'/stat', "r");
 $line  = fgets($fh,4096);
