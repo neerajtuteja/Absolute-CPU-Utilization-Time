@@ -1,6 +1,9 @@
+#### Process's CPU Utiization Time ####
+#### Run as `python cpu_time.py` ####
+
 from time import sleep
 
-process_id = '1871'      # Process id is figured out using `ps -aux | grep <process-name>`
+process_id = '1941'      # Process id is figured out using `ps -aux | grep <process-name>`
 
 fh = open('/proc/stat', "r")
 lines = fh.readlines()

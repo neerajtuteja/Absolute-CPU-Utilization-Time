@@ -1,7 +1,7 @@
 #### Process's CPU Utiization Time ####
 #### Run as `ruby cpu_time.py` ####
 
-process_id = '1871'      # Process id is figured out using `ps -aux | grep <process-name>`
+process_id = '1941'      # Process id is figured out using `ps -aux | grep <process-name>`
 
 line = File.open('/proc/stat'){|f|  f.readline}
 line = line.strip
