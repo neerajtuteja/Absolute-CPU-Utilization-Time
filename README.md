@@ -1,5 +1,5 @@
-abs-cpu-util-time
-=================
+Absolute CPU Utilization Time
+=========================
 
 By Neeraj Tuteja
 
